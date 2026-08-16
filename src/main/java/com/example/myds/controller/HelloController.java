@@ -8,6 +8,6 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "这是feature改的";
+        return "这是master";
     }
 }
